@@ -1,0 +1,14 @@
+All things that NEED to be done:
+- Website mush have black background
+- All text must be in white and Lucida Console
+- must consist of single title
+- tasks should be displayed under title
+- each task can be crossed off has edit&delete button on the right
+- tasks stack on top of each other, below bottom task is a plus icon aligned with left of tasks which lets you add another task
+- clicking + icon should open up a pop up a task bar in edit mode
+- edit mode: text area should consist of an input bar. Once enter is hit, then text gets finalized, should be able to be edited later
+
+Things to add after NEEDS are finished:
+- add funcionality to move tasks above/below other tasks
+- add funcionality to create a folder (task which can contain other tasks) folders can be made recursively infinitely
+

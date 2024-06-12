@@ -1,0 +1,111 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Console', monospace;
+
+}
+body{
+    color: white;
+    background-color: black;
+    margin-top: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    scrollbar-width: 0px;
+}
+.main{
+    max-width: 1000px;
+    width: 100%;
+    margin:0 auto;
+    padding: 20px;
+    
+}
+
+h1 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+.todoList{
+    width: 100%;
+    
+}
+.task-item{
+    max-width: 100%;
+    display:flex;
+    flex-direction: row;
+    list-style: none;
+    width: inherit;
+    background-color: #777;
+    margin-bottom: 10px;
+    border-radius: 25px;
+    height: 30px;
+    align-items: center;
+}
+
+.task-text, .textContainer{
+    font-size: 16px;
+    text-align: left;
+    color: #fff;
+    max-width: 100%;
+    background-color: transparent;
+    border-style: hidden;
+    border-color: transparent;
+    width: 200px;
+    margin-left: 10px;
+    flex-grow: 1;
+}
+
+.task-text:focus, .textContainer:focus{
+    outline:none;
+    border:none;
+}
+
+.task-text::placeholder{
+    color:white;
+}
+
+.done-btn, .editBtn, .deletebtn { 
+    margin-left: auto;
+    padding: 5px;
+    margin-right: 10px;
+    margin-left: 5px; 
+    background-color: #555;
+    color:white;
+    border-style: hidden;
+    border-radius: 25px;
+    transition:0.2s;
+}
+
+.done-btn:hover, .editBtn:hover, .deletebtn:hover{
+    transition: 0.5s;
+    background-color: black;
+}
+
+.deletebtn:hover{
+    transition:0.5s;
+    color:red;
+}
+
+.addTask{
+    margin-right: 100%;
+    font-size: 18px;
+    align-self: flex-start;
+    padding: 5px 9px;
+    color: white;
+    background-color: #777; 
+    border-style: hidden;
+    border-radius: 50%;
+    transition: background-color 0.5s;
+    cursor: pointer;
+}
+.addTask:hover{
+    transition: background-color 0.2s;
+    background-color: #555;
+}
